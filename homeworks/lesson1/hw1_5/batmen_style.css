@@ -15,7 +15,7 @@ h1{
     font-family: "Mistral", serif;
     background-color: black;
     text-align: center;
-    color: yellow;
+    color: crimson;
     padding-top: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -25,25 +25,15 @@ img{width: 120px;
     border-radius: 50%;
     }
 
-
-span{color: crimson}
-
-span1{
+span{
     width: 100%;
-    font: normal; font-size: 16px; color: yellow;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font: normal; font-size: 18px; color: white;
     display: inline-block;
     background-color: rgba(155, 149, 165, 0.32);
     text-align: center;
     margin-bottom: 30px;
 }
-span2{
-    width: 100%;
-    font: normal; font-size: 30px; color: white;
-    display: inline-block;
-    background-color: crimson;
-    text-align: center;
-    }
-
 
 section{
     font-size: 16px;
@@ -68,7 +58,7 @@ h2{
 
 }
 
-div{
+div {
 
     display: flex;
     background-color: rgba(155, 149, 165, 0.32);
@@ -77,9 +67,22 @@ div{
     padding-left: 43%;
     padding-right: 42%;
     margin-bottom: 30px;
-
+}
 hr{
 color: yellow;
 }
+
+.online{
+    background-color: black;
+    font-size: 24px;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
 
 
