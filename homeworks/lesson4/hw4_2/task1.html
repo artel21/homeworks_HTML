@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>block02</title>
+    <style>
+
+*{
+    margin: 0;
+
+}
+
+header{
+    height: 20vh;
+    background: #8D8484;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    height: 20vh;
+    width: 73vw;
+}
+
+aside{
+    height: 30vh;
+    width: 27vw;
+}
+
+.main_spam1{
+    background: #937575;
+}
+.main_spam2{
+    background: #644C4C;
+}
+
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+.content1{
+    background: #776969;
+}
+
+.content2{
+    background: #643030;
+}
+
+.content3{
+    background: #441818;
+}
+
+header, section, aside, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer p{
+    font-size: 1.5vw;
+    color: #19191B;
+}
+
+main p{
+    font-size: 1.5vw;
+    color: white;
+
+}
+
+    </style>
+</head>
+<body>
+
+<header><p>header</p></header>
+
+<main>
+    <div class="main_contents">
+        <section class="content1"><p>content-1</p></section>
+        <section class="content2"><p>content-2</p></section>
+        <section class="content3"><p>content-3</p></section>
+    </div>
+
+    <div class="main_spam">
+        <aside class="main_spam1"><p>spam-1</p></aside>
+        <aside class="main_spam2"><p>spam-2</p></aside>
+    </div>
+
+</main>
+
+<footer><p>footer</p></footer>
+
+</body>
+</html>
