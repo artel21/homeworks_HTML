@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-top: 30px solid yellow;
+    border-right: 30px solid red;
+    border-bottom: 30px solid blue;
+    border-left: 30px solid green;
+    animation: preloader 5s infinite linear alternate;
+
+}
+
+@keyframes preloader {
+    from{
+        transform: rotate(360deg);
+    }
+
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+    
+}
