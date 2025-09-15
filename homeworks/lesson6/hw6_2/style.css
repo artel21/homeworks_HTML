@@ -1,0 +1,128 @@
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 4px solid gainsboro;
+    width: 32%;
+
+}
+
+.insta-top{
+    height: 600px;
+    margin-bottom: 10px;
+}
+.insta-bottom{
+    height: 60px;
+}
+
+
+.insta-top img{
+    width: 300px;
+    text-align: start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    width: 360px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*=========================================================================*/
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -45px;
+
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: dimgrey;
+    margin-bottom: 5px;
+
+}
+
+.alter_fb{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.alter_fb a{
+    color: rgb(32, 76, 176);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alter_fb img{
+    width: 50px;
+}
+
+.no_password{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.no_password a{
+    color: rgb(32, 76, 176);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*=================================================================*/
+
+.insta-bottom h3{
+    color: black;
+}
+
+.insta-bottom a{
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;}
+
+
+
+
+
